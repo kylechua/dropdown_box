@@ -1,0 +1,61 @@
+<div class="main">
+  <head>
+    <a id="top"><title>Test</title></a>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/dropdown.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="css/main.css" /><![endif]-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/dropdown.js"></script>
+  </head>
+<body>
+  <div id='box1'></div>
+  <div id='box2'></div>
+  <div id='box3'></div>
+  <div id='box4'></div>
+</body>
+  <script>
+  $('#box1').dropdownBox([
+                 "Choose Home Type...",
+                 "Apartment",
+                 "Condo",
+                 "House",
+                 "Loft",
+                 "Townhouse",
+                 ])
+  </script>
+  <script>
+  $('#box2').dropdownBox([
+                 "Month...",
+                 "January",
+                 "February",
+                 "March",
+                 "April",
+                 "May",
+                 "June",
+                 "July",
+                 "August"
+                 ])
+  </script>
+  <script>
+  $('#box3').dropdownBox([
+                  "Choose Flavor...",
+                  "Vanilla",
+                  "Chocolate",
+                  "Strawberry"])
+  </script>
+  <script>
+  $('#box4').dropdownBox([
+                  "Testing...",
+                  "With Spaces",
+                  "With Lots Of Spaces",
+                  "Lots Of Spaces",
+                  "With Lots Of Words",
+                  "Concat",
+                  "Cation",
+                  "Vacation",
+                  "VACATION",
+                  "On the Way"
+                         ])
+  </script>
+
+</div>
